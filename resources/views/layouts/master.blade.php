@@ -10,12 +10,7 @@
 </head>
 <body>
 <div id="app">
-    <ol class="breadcrumb">
-        <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/about">About</router-link></li>
-
-    </ol>
-    <router-view></router-view>
+    <app></app>
 </div>
 <script src="/js/app.js"></script>
 </body>
